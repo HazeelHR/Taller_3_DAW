@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materias>
+    <materia>
+        <codigo>ANF231</codigo>
+        <nombre>Antropología Filosófica</nombre>
+        <descripcion>El estudio filosófico del ser humano elaborado a lo largo de los siglos y actualmente, objeto de atención de los filósofos.</descripcion>
+    </materia>
+    <materia>
+        <codigo>LME404</codigo>
+        <nombre>Lenguajes de Marcado y Estilo Web</nombre>
+        <descripcion>Se enseña un lenguaje de marcado que se llama HTML y un lenguaje de hojas de estilo que se llama CSS</descripcion>
+    </materia>
+    <materia>
+        <codigo>MAD541</codigo>
+        <nombre>Matemática Discreta</nombre>
+        <descripcion>Estudia las estructuras cuyos elementos pueden contarse uno por uno separadamente, como los números enteros, grafos y sentencias lógicas</descripcion>
+    </materia>
+    <materia>
+        <codigo>PAL404</codigo>
+        <nombre>Programación de Algoritmos</nombre>
+        <descripcion>Conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea</descripcion>
+    </materia>
+    <materia>
+        <codigo>REC404</codigo>
+        <nombre>Redes de Comunicación</nombre>
+        <descripcion>Conjunto de medios, tecnologías, protocolos y facilidades en general, necesarios para el intercambio de información y archivos entre los usuarios de una red</descripcion>
+    </materia>
+    <materia>
+        <codigo>ADS404</codigo>
+        <nombre>Análisis y Diseño de Sistemas</nombre>
+        <descripcion>Se refiere al proceso de examinar la situación de una empresa con el propósito de mejorar con métodos y procedimientos más adecuados.</descripcion>
+    </materia>
+    <materia>
+        <codigo>DAW404</codigo>
+        <nombre>Desarrollo de Aplic. Web con Soft. Interpret. en el Cliente</nombre>
+        <descripcion>Asimilar el concepto de script y la utilidad del lenguaje JavaScript</descripcion>
+    </materia>
+    <materia>
+        <codigo>DSP404</codigo>
+        <nombre>Desarrollo de Aplicaciones con Software Propietario</nombre>
+        <descripcion>Introducción a la plataforma FrameWork.NET, la implementación de los proyectos con C# </descripcion>
+    </materia>
+    <materia>
+        <codigo>EOE202</codigo>
+        <nombre>Expresión Oral y Escrita</nombre>
+        <descripcion>Que el estudiante produzca textos académicos y ejecutivos, de forma escrita y oral, bajo una estructura clara y eficaz</descripcion>
+    </materia>
+    <materia>
+        <nombre>Matemática Técnica</nombre>
+        <codigo>MTE511</codigo>
+        <descripcion>Resuelve ecuaciones de primer y segundo grado aplicando las leyes y procesos algebraicos para números reales e imaginarios</descripcion>
+    </materia>
+
+
+
+    
+<materia>
+<nombre>Soporte de Equipos y Sistemas Computacionales</nombre>
+<codigo>SES404</codigo>
+<descripcion>Identificación de los componentes internos y externos de un computador y el funcionamiento de los diferentes tipos de sistemas operativos.</descripcion>
+</materia>
+
+<materia>
+<nombre>Base de Datos</nombre>
+<codigo>BDD404</codigo>
+<descripcion>Recopilación organizada de información o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático</descripcion>
+</materia>
+
+<materia>
+<nombre>Desarrollo de Aplicaciones Web con Gestores de Contenidos</nombre>
+<codigo>DGC404</codigo>
+<descripcion>Programa o aplicación web que permite la creación de una estructura de soporte para la creación, administración y publicación de contenido en una página web por parte de administradores, editores y otros usuarios.</descripcion>
+</materia>
+
+<materia>
+<nombre>Desarrollo de Aplic. Web con Soft. Interpret. en el Servidor</nombre>
+<codigo>DSS404</codigo>
+<descripcion>Adquirir habilidad en la forma en que se crean programas PHP y del proceso para visualizarlos através de un navegador.</descripcion>
+</materia>
+
+<materia>
+<nombre>Programación Orientada a Objetos</nombre>
+<codigo>POO404</codigo>
+<descripcion>Es un modelo de programación informática que organiza el diseño de software en torno a datos u objetos, en lugar de funciones y lógica</descripcion>
+</materia>
+
+<materia>
+<nombre>Servidores en Plataformas Libres</nombre>
+<codigo>SPL404</codigo>
+<descripcion>Ofrece a los clientes la posibilidad de compartir datos, información y recursos de hardware y software.</descripcion>
+</materia>
+
+<materia>
+<nombre>Administración de Proyectos</nombre>
+<codigo>ADP404</codigo>
+<descripcion>Proceso de combinar sistemas, técnicas y personas para completar un proyecto dentro de las metas establecidas de tiempo, presupuesto y calidad</descripcion>
+</materia>
+
+<materia>
+<nombre>Desarrollo de Aplicaciones con Web Frameworks</nombre>
+<codigo>DWF404</codigo>
+<descripcion>Patrón de diseño MVC y pueda implementarlo en una aplicación web.</descripcion>
+</materia>
+
+<materia>
+<nombre>Pensamiento Social y Cristiano</nombre>
+<codigo>PSC231</codigo>
+<descripcion>Expresa todo el humanismo espiritual e integral de la fe, puede motivar e inspirar una cualificada filosofía social, sustentada en sus bases antropológicas y ética</descripcion>
+</materia>
+
+<materia>
+<nombre>Seguridad de Redes</nombre>
+<codigo>SDR404</codigo>
+<descripcion>Conjunto de reglas y configuraciones diseñadas para proteger la integridad, confidencialidad y accesibilidad de las redes y datos utilizando tecnologías de software y hardware.</descripcion>
+</materia>
+
+<materia>
+<nombre>Servidores en Plataformas Propietarias</nombre>
+<codigo>SPP404</codigo>
+<descripcion>Son plataformas por las que hay que pagar para tener derecho a la instalación y al mantenimiento, este valor varía dependiendo del número de usuarios</descripcion>
+</materia>
+
+</materias>
