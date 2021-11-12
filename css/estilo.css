@@ -50,3 +50,43 @@ h1.title{
     background-color: whitesmoke;
     border-radius: 5px;
 }
+
+
+table {
+    table-layout: fixed;
+    
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid rgba(64, 157, 196, 1);
+    color: black;
+}
+
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+tbody td:nth-child(5) {
+    text-align: left;
+}
+
+thead th {
+    background: linear-gradient(to bottom, rgba(33, 9, 168, 0.2), rgba(64, 157, 196, 0.6));
+    border: solid 2px rgba(64, 157, 196, 1);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(33, 9, 168, 0.1);
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(64, 157, 196, 0.5);
+}
+
+
+#content{
+    padding-bottom: 20px;
+}
