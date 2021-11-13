@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cátalogo - Pensum</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">    
     <link rel="shortcut icon" href="img/udb_logo_blanco.png" type="image/x-icon">
     <script src="js/jquery.min.js"></script>
     <script src="js/mostrar_datos.js"></script>
     <script src="js/peticiones_ajax.js"></script>
+    <script src="js/mostrar_descripcion.js"></script>
     <script src="js/cambio_estilo.js"></script>
 </head>
 <body>
@@ -42,6 +43,14 @@
             
         </article>
     </section>
-    <tbody></tbody>
+    <div class="popup-wrapper" id="popupWrapper">
+        <div class="popup">
+            <div class="popup-close" id="popupClose">x</div>
+            <div class="popup-content">
+                <h3>Información</h3><br>
+                <p id="contDescipcion"></p>                
+            </div>
+        </div>
+    </div>
 </body>
 </html>
