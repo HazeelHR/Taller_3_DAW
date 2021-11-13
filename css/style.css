@@ -5,12 +5,12 @@
 			
 #header {
 	margin:auto;
-	width:800px;
+	width:480px;
 	font-family:Arial, Helvetica, sans-serif;
 }
 
 li{
-	width: 260px;
+	width: 240px;
 }
 			
 ul, ol {
@@ -18,7 +18,7 @@ ul, ol {
 }
 			
 .nav > li {
-	float:left;
+	float:right;
 }
 			
 .nav li a {
