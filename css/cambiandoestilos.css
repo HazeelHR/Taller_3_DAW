@@ -1,0 +1,37 @@
+.tabla1{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: oblique;
+    background-color: rgb(32, 255, 169);
+    text-align: center;
+    border-color: chocolate;
+    font-weight: bold;
+}
+
+.tabla2{
+    font-size: 20px;
+    font: white;
+    color: white;
+    text-align: right;
+    background-color: blue;
+}
+
+.tabla3{
+    font-weight: bold;
+    background-color: yellow;
+    font-style: italic;
+    padding: 25px;
+    color: rgb(211, 6, 6);
+}
+
+.pagina1{
+    background-color: cornflowerblue;
+}
+
+.pagina2{
+    background-color: coral;
+}
+
+.pagina3{
+    background-color: rgb(199, 130, 130);
+}

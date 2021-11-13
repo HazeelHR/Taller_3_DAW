@@ -5,22 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cátalogo - Pensum</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="shortcut icon" href="img/udb_logo_blanco.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/cambiandoestilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/mostrar_datos.js"></script>
     <script src="js/peticiones_ajax.js"></script>
+    <script src="js/cambiosdeestilos.js"></script>
 </head>
 <body>
     <header class="header">
         <img src="img/udb_logo_blanco.png" alt="">
         <h1>Universidad Don Bosco</h1>
-    </header>
+    </header><br>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="">Ninguno</a></li>
+            <li><a href="">Estilos de la tabla</a>
+                <ul>
+                    <li><a href="#" id="tab1">Estilo 1</a></li>
+                    <li><a href="#" id="tab2">Estilo 2</a></li>
+                    <li><a href="#" id="tab3">Estilo 3</a></li>
+                </ul>
+            </li>
+            <li><a href="">Estilos de la pagina</a>
+                <ul>
+                    <li><a href="#" id="pag1">Estilo 1</a></li>
+                    <li><a href="#" id="pag2">Estilo 2</a></li>
+                    <li><a href="#" id="pag3">Estilo 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><br><br>
     <section class="container">
         <h1 class="title">Pénsum de Técnico en Ingeniería en Computación</h1>
         <article class="contenido" id="content">
             
         </article>
     </section>
-  
+    <tbody></tbody>
 </body>
 </html>
