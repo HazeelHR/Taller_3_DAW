@@ -91,25 +91,26 @@ function showlist(materialist){
                 if(i < 5){//validando que la casilla sea manor que 5
                     if(i == 0){//validando que sea la primer casilla para crearla
 
-                        estructura += "<td>";
+                        estructura += "<td id='Ciclo 1'>";
                         estructura += "<p>1</p>";
                         estructura += "</td>";
                         
                     }else{//creando cada una de las casillas diferentes de 1 y menores que 5
-                        estructura += "<td>";
+                        estructura += "<td id='Materia: "+ materialist[casilla].nombre +".\n\n Descripción: " + materialist[casilla].descripcion + "'>";
                         estructura += "<p>";
-                        estructura += "Codigo: " + materialist[casilla].codigo +". <br/>";
-                        estructura += "Nombre: " + materialist[casilla].nombre +". <br/>";                        
+                        estructura += "<b>Codigo:</b> " + materialist[casilla].codigo +". <br/>";
+                        estructura += "<b>Nombre:</b> " + materialist[casilla].nombre +". <br/>";                        
                         estructura += "</p>";
                         estructura += "</td>";
                         casilla++;
                     }
                     
-                }else{//creando la ultima fila de la casilla para aplicar la propiedad colspan='2' 
-                    estructura += "<td colspan='2' >";
+                }else{//creando la ultima fila de la casilla para aplicar la propiedad colspan='2'                     
+                
+                    estructura += "<td colspan='2' id='Materia: "+ materialist[casilla].nombre +".\n\n Descripción: " + materialist[casilla].descripcion + "'>";
                     estructura += "<p>";
-                    estructura += "Codigo: " + materialist[casilla].codigo +". <br/>";
-                    estructura += "Nombre: " + materialist[casilla].nombre +". <br/>";                    
+                    estructura += "<b>Codigo:</b> " + materialist[casilla].codigo +". <br/>";
+                    estructura += "<b>Nombre:</b> " + materialist[casilla].nombre +". <br/>";                    
                     estructura += "</p>";
                     estructura += "</td>";
                     casilla++;
@@ -126,15 +127,15 @@ function showlist(materialist){
             {
                 
                 if(i == 0){//validando que sea la primer casilla
-                    estructura += "<td>";
+                    estructura += "<td id='Ciclo 2'>";
                     estructura += "<p>2</p>";
                     estructura += "</td>";
                     
                 }else{//creando las demas casillas de la fila
-                    estructura += "<td>";
+                    estructura += "<td id='Materia: "+ materialist[casilla].nombre +".\n\n Descripción: " + materialist[casilla].descripcion + "'>";
                     estructura += "<p>";
-                    estructura += "Codigo: " + materialist[casilla].codigo +". <br/>";
-                    estructura += "Nombre: " + materialist[casilla].nombre +". <br/>";                    
+                    estructura += "<b>Codigo:</b> " + materialist[casilla].codigo +". <br/>";
+                    estructura += "<b>Nombre:</b> " + materialist[casilla].nombre +". <br/>";                    
                     estructura += "</p>";
                     estructura += "</td>";
                     casilla++;
@@ -150,25 +151,25 @@ function showlist(materialist){
             {
                 if(i < 5){//validando que la casilla a crear sea menor que la quinta
                     if(i == 0){//creando la primer casilla
-                        estructura += "<td>";
+                        estructura += "<td id='Ciclo 3'>";
                         estructura += "<p>3</p>";
                         estructura += "</td>";
                         
                     }else{//creando las de mas casillas de la fila sin contar la ultima
-                        estructura += "<td>";
+                        estructura += "<td id='Materia: "+ materialist[casilla].nombre +".\n\n Descripción: " + materialist[casilla].descripcion + "'>";
                         estructura += "<p>";
-                        estructura += "Codigo: " + materialist[casilla].codigo +". <br/>";
-                        estructura += "Nombre: " + materialist[casilla].nombre +". <br/>";                        
+                        estructura += "<b>Codigo:</b> " + materialist[casilla].codigo +". <br/>";
+                        estructura += "<b>Nombre:</b> " + materialist[casilla].nombre +". <br/>";                        
                         estructura += "</p>";
                         estructura += "</td>";
                         casilla++;
                     }
                     
                 }else{//creando la ultima fila de la casilla para aplicar la propiedad colspan='2' 
-                    estructura += "<td colspan='2' >";
+                    estructura += "<td colspan='2' id='Materia: "+ materialist[casilla].nombre +".\n\n Descripción: " + materialist[casilla].descripcion + "'>";
                     estructura += "<p>";
-                    estructura += "Codigo: " + materialist[casilla].codigo +". <br/>";
-                    estructura += "Nombre: " + materialist[casilla].nombre +". <br/>";                    
+                    estructura += "<b>Codigo:</b> " + materialist[casilla].codigo +". <br/>";
+                    estructura += "<b>Nombre:</b> " + materialist[casilla].nombre +". <br/>";                    
                     estructura += "</p>";
                     estructura += "</td>";
                     casilla++;
@@ -184,25 +185,25 @@ function showlist(materialist){
             {
                 if(i < 5){//validando que las casillas a crear sean menores a la quinta
                     if(i == 0){//creando la primer casilla
-                        estructura += "<td>";
+                        estructura += "<td id='Ciclo 4'>";
                         estructura += "<p>4</p>";
                         estructura += "</td>";
                         
                     }else{//creando las de mas casillas
-                        estructura += "<td>";
+                        estructura += "<td id='Materia: "+ materialist[casilla].nombre +".\n\n Descripción: " + materialist[casilla].descripcion + "'>";
                         estructura += "<p>";
-                        estructura += "Codigo: " + materialist[casilla].codigo +". <br/>";
-                        estructura += "Nombre: " + materialist[casilla].nombre +". <br/>";                        
+                        estructura += "<b>Codigo:</b> " + materialist[casilla].codigo +". <br/>";
+                        estructura += "<b>Nombre:</b> " + materialist[casilla].nombre +". <br/>";                        
                         estructura += "</p>";
                         estructura += "</td>";
                         casilla++;
                     }
                     
                 }else{//creando la ultima fila de la casilla para aplicar la propiedad colspan='2' 
-                    estructura += "<td colspan='2' >";
+                    estructura += "<td colspan='2' id='Materia: "+ materialist[casilla].nombre +".\n\n Descripción: " + materialist[casilla].descripcion + "'>";
                     estructura += "<p>";
-                    estructura += "Codigo: " + materialist[casilla].codigo +". <br/>";
-                    estructura += "Nombre: " + materialist[casilla].nombre +". <br/>";                    
+                    estructura += "<b>Codigo:</b> " + materialist[casilla].codigo +". <br/>";
+                    estructura += "<b>Nombre:</b> " + materialist[casilla].nombre +". <br/>";                    
                     estructura += "</p>";
                     estructura += "</td>";
                     casilla++;
@@ -217,7 +218,7 @@ function showlist(materialist){
     estructura += "</table>";
 
     dom_tracklist.innerHTML = estructura; //insertando la estructura de la tabla creada en el contenedor que la va a mostrar
-
+    eventoclick();//llamando a la funcion que muestra la descipcion de la materia presionada
 }
 
 
